@@ -1,5 +1,5 @@
-var Shasta = artifacts.require("./HopDongNhom18.sol");
+var Shasta = artifacts.require('./HopDongCungUng18.sol')
 
-module.exports = function(deployer) {
-  deployer.deploy(Shasta);
-};
+module.exports = function (deployer) {
+  deployer.deploy(Shasta)
+}
